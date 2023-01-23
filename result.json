@@ -1,62 +1,115 @@
 {
-	"room_0000":{
-		"num_of_doors":2,
-		"doors":["room_0004","room_0005"],
-		"num_of_items":1,
-		"items":["item_5"]
-	},
-	"room_0001":{
-		"num_of_doors":3,
-		"doors":["room_0005","room_0003","room_0007"],
-		"num_of_items":1,
-		"items":["item_1"]
-	},
-	"room_0002":{
-		"num_of_doors":2,
-		"doors":["room_0006","room_0007"],
-		"num_of_items":2,
-		"items":["item_5","item_4"]
-	},
-	"room_0003":{
-		"num_of_doors":1,
-		"doors":["room_0000"],
-		"num_of_items":1,
-		"items":["item_4"]
-	},
-	"room_0004":{
-		"num_of_doors":3,
-		"doors":["room_0009","room_0002","room_0006"],
-		"num_of_items":3,
-		"items":["item_2","item_3","item_4"]
-	},
-	"room_0005":{
-		"num_of_doors":3,
-		"doors":["room_0008","room_0003","room_0002"],
-		"num_of_items":3,
-		"items":["item_1","item_1","item_3"]
-	},
-	"room_0006":{
-		"num_of_doors":3,
-		"doors":["room_0007","room_0004","room_0000"],
-		"num_of_items":4,
-		"items":["item_4","item_4","item_1","item_1"]
-	},
-	"room_0007":{
-		"num_of_doors":1,
-		"doors":["room_0001"],
-		"num_of_items":0,
-		"items":[null]
-	},
-	"room_0008":{
-		"num_of_doors":3,
-		"doors":["room_0001","room_0005","room_0003"],
-		"num_of_items":3,
-		"items":["item_5","item_2","item_1"]
-	},
-	"room_0009":{
-		"num_of_doors":1,
-		"doors":["room_0008"],
-		"num_of_items":2,
-		"items":["item_2","item_3"]
-	}
+    "room_0000": {
+        "doors": [
+            "room_0001",
+            "room_0004"
+        ],
+        "num_of_items": 3,
+        "items": [
+            "item_3",
+            "item_2",
+            "item_5"
+        ]
+    },
+    "room_0001": {
+        "doors": [
+            "room_0000",
+            "room_0006",
+            "room_0005"
+        ],
+        "num_of_items": 2,
+        "items": [
+            "item_4",
+            "item_3"
+        ]
+    },
+    "room_0002": {
+        "doors": [
+            "room_0003"
+        ],
+        "num_of_items": 1,
+        "items": [
+            "item_5"
+        ]
+    },
+    "room_0003": {
+        "doors": [
+            "room_0002",
+            "room_0004",
+            "room_0007"
+        ],
+        "num_of_items": 1,
+        "items": [
+            "item_1"
+        ]
+    },
+    "room_0004": {
+        "doors": [
+            "room_0003",
+            "room_0000",
+            "room_0008",
+            "room_0005"
+        ],
+        "num_of_items": 2,
+        "items": [
+            "item_4",
+            "item_2"
+        ]
+    },
+    "room_0005": {
+        "doors": [
+            "room_0001",
+            "room_0004",
+            "room_0008"
+        ],
+        "num_of_items": 4,
+        "items": [
+            "item_4",
+            "item_2",
+            "item_5",
+            "item_3"
+        ]
+    },
+    "room_0006": {
+        "doors": [
+            "room_0001",
+            "room_0007",
+            "room_0009"
+        ],
+        "num_of_items": 1,
+        "items": [
+            "item_2"
+        ]
+    },
+    "room_0007": {
+        "doors": [
+            "room_0006",
+            "room_0003"
+        ],
+        "num_of_items": 0,
+        "items": [
+            null
+        ]
+    },
+    "room_0008": {
+        "doors": [
+            "room_0004",
+            "room_0005",
+            "room_0009"
+        ],
+        "num_of_items": 1,
+        "items": [
+            "item_4"
+        ]
+    },
+    "room_0009": {
+        "doors": [
+            "room_0006",
+            "room_0008"
+        ],
+        "num_of_items": 1,
+        "items": [
+            "item_2"
+        ]
+    }
 }
