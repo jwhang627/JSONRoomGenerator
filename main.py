@@ -1,5 +1,7 @@
 import json, random, os, numpy, re, ast, array
 
+# reference: https://www.geeksforgeeks.org/building-an-undirected-graph-and-finding-shortest-path-using-dictionaries-in-python/
+
 max_num_rooms = 10
 max_num_doors = 3
 
